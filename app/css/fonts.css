@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewaythin.woff2") format("woff2"), url("../fonts/ralewaythin.woff") format("woff"), url('../fonts/ralewaythin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewayextralight.woff2") format("woff2"), url("../fonts/ralewayextralight.woff") format("woff"), url('../fonts/ralewayextralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewaylight.woff2") format("woff2"), url("../fonts/ralewaylight.woff") format("woff"), url('../fonts/ralewaylight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewayregular.woff2") format("woff2"), url("../fonts/ralewayregular.woff") format("woff"), url('../fonts/ralewayregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewaymedium.woff2") format("woff2"), url("../fonts/ralewaymedium.woff") format("woff"), url('../fonts/ralewaymedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewaysemibold.woff2") format("woff2"), url("../fonts/ralewaysemibold.woff") format("woff"), url('../fonts/ralewaysemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewaybold.woff2") format("woff2"), url("../fonts/ralewaybold.woff") format("woff"), url('../fonts/ralewaybold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewayextrabold.woff2") format("woff2"), url("../fonts/ralewayextrabold.woff") format("woff"), url('../fonts/ralewayextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/ralewayblack.woff2") format("woff2"), url("../fonts/ralewayblack.woff") format("woff"), url('../fonts/ralewayblack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
