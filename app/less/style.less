@@ -7,10 +7,8 @@ html{
 }
 
 body{
-    max-width: 117rem;
     height: 100vh;
     
-    margin: 0 auto;
 
     font-family: @fontRegular;
     font-size: 1.4rem;
@@ -23,10 +21,107 @@ body{
 
 .container{
     max-width: 117rem;
-
+    margin: 0 auto;
+    
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 3rem;
+    grid-column-gap: 3rem;
+    // background-color: #ffaaaa;
+}
 
-    background-color: #ffaaaa;
+.gallery{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.home__container{
+    grid-template-rows: repeat(2, auto);
+}
+
+.about__container{
+    grid-template-rows: repeat(3, auto);
+}
+
+.testimonials__container{
+    grid-template-rows: repeat(2, auto);
+}
+
+.news__container{
+    grid-template-rows: repeat(2, auto);
+}
+
+.footer_container{
+    grid-template-rows: repeat(3, auto);
+}
+
+.col-start-5{
+    grid-column-start: 5;
+}
+
+
+.col-start-7{
+    grid-column-start: 7;
+}
+
+.col-start-8{
+    grid-column-start: 8;
+}
+
+.row-start-1{
+    grid-row-start: 1;
+}
+
+.row-start-2{
+    grid-row-start: 2;
+}
+
+.row-start-3{
+    grid-row-start: 3;
+}
+
+.col-span-1{
+    grid-column-end: span 1;
+}
+
+.col-span-2{
+    grid-column-end: span 2;
+}
+
+.col-span-3{
+    grid-column-end: span 3;
+}
+
+.col-span-4{
+    grid-column-end: span 4;
+}
+
+.col-span-5{
+    grid-column-end: span 5;
+}
+
+.col-span-6{
+    grid-column-end: span 6;
+}
+
+.col-span-12{
+    grid-column-end: span 12;
+}
+
+.row-span-3{
+    grid-row-end: span 3;
+}
+
+.news-item__info{
+    display: grid;
+    grid-auto-flow: column;
 }
