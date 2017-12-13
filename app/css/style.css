@@ -803,6 +803,22 @@ body {
 .gallery__img {
   max-height: 100%;
 }
+.solutions__container {
+  margin-top: 16rem;
+  margin-bottom: 18rem;
+}
+.solutions__head-2 {
+  margin-bottom: 5.5rem;
+}
+.solutions-item__header {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333333;
+}
+.solutions-item__container {
+  margin-bottom: 7rem;
+}
 .news-item__info {
   display: grid;
   grid-auto-flow: column;
