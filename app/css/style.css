@@ -480,15 +480,6 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 3rem;
 }
-.home__container {
-  grid-template-rows: repeat(2, auto);
-}
-.about__container {
-  grid-template-rows: repeat(3, auto);
-}
-.news__container {
-  grid-template-rows: repeat(2, auto);
-}
 .footer_container {
   grid-template-rows: repeat(3, auto);
 }
@@ -741,6 +732,9 @@ body {
   position: relative;
   height: 100%;
 }
+.home__container {
+  grid-template-rows: repeat(2, auto);
+}
 .home__slogan {
   margin-top: 0;
   margin-bottom: 20rem;
@@ -781,6 +775,14 @@ body {
 }
 .about__container {
   padding-top: 15rem;
+  grid-template-rows: repeat(3, auto);
+}
+.about__head-2 {
+  margin-bottom: 4rem;
+}
+.about__button {
+  margin-top: 5rem;
+  margin-bottom: 5.5rem;
 }
 .projects__container {
   padding-top: 15rem;
@@ -851,9 +853,42 @@ body {
   font-style: normal;
   color: #333333;
 }
+.news {
+  padding-top: 17rem;
+  padding-bottom: 17rem;
+}
+.news__head-2 {
+  margin-bottom: 5rem;
+}
+.news__container {
+  grid-template-rows: repeat(3, auto);
+}
+.news__button {
+  margin-top: 6rem;
+}
 .news-item__info {
   display: grid;
   grid-auto-flow: column;
+  padding-bottom: 4.5rem;
+}
+.news-item__date {
+  color: #cccccc;
+  font-weight: 500;
+}
+.news-item__day {
+  font-size: 6rem;
+  margin: 0;
+}
+.news-item__month {
+  font-size: 3rem;
+  margin: 0;
+}
+.news-item__caption {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #333333;
+  margin: 0;
+  padding-left: 3.5rem;
 }
 .contact {
   display: grid;
