@@ -786,12 +786,22 @@ body {
 .about__container {
   margin-top: 15rem;
 }
+.projects__container {
+  margin-top: 15rem;
+}
+.projects__head-2 {
+  margin-bottom: 7.5rem;
+}
 .gallery {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 25%);
+  overflow: hidden;
 }
 .gallery__item {
   height: 43.5rem;
+}
+.gallery__img {
+  max-height: 100%;
 }
 .news-item__info {
   display: grid;
