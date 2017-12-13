@@ -661,6 +661,7 @@ body {
 }
 .button_theme_outline {
   min-width: 17rem;
+  max-height: 4.8rem;
   position: relative;
   padding: 1.2rem 3.6rem;
   border-radius: 3rem;
@@ -678,6 +679,21 @@ body {
 .link {
   color: #ffffff;
   text-decoration: none;
+}
+.head-2 {
+  font-size: 5rem;
+  color: #0169b4;
+  line-height: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.img-wrap {
+  max-width: 100%;
+  overflow: hidden;
+  height: 43.5rem;
+}
+.img-wrap__image {
+  max-height: 100%;
 }
 .header {
   font-family: 'montserrat';
@@ -767,9 +783,15 @@ body {
 .slogan_emphasis {
   font-weight: 800;
 }
+.about__container {
+  margin-top: 15rem;
+}
 .gallery {
   display: grid;
   grid-auto-flow: column;
+}
+.gallery__item {
+  height: 43.5rem;
 }
 .news-item__info {
   display: grid;
