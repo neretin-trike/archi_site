@@ -1,0 +1,30 @@
+.button{
+    display: inline-block;
+
+    outline: none;
+    cursor: pointer;
+
+    background-color: transparent;
+
+    &_theme_outline{
+
+        &:hover{
+            background-color: @color-blue;
+            color: @color-light;
+            border-color:  @color-blue;
+            box-shadow: 0 0 1.6rem rgba(1, 105, 180, 1); 
+        }
+
+        min-width: 17rem;
+    
+        position: relative;
+        padding: 1.2rem 3.6rem;
+    
+        border-radius: 3rem;
+        border: 0.2rem solid @color-lightgray;
+    
+        font-size: 1.8rem;
+        font-weight: @font-weight-medium;
+        color: @text-color;
+    }
+}
