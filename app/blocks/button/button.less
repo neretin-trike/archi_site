@@ -1,6 +1,6 @@
 .button{
     display: inline-block;
-
+    border: none;
     outline: none;
     cursor: pointer;
 
@@ -29,5 +29,20 @@
         color: @text-color;
     }
 
-   
+    &_theme_go{
+        width: 14.4rem;
+        height: 14.4rem;
+
+        position: relative;
+        top: 7.3rem;
+
+        background-color: @color-light;
+
+        border-top-left-radius: 7.2rem;
+        border-top-right-radius: 7.2rem;
+
+        background-image: url(/images/arrow_top.png);
+        background-repeat: no-repeat;
+        background-position: center 25%;
+    }        
 }

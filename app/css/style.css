@@ -480,9 +480,6 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 3rem;
 }
-.footer_container {
-  grid-template-rows: repeat(3, auto);
-}
 .overlay {
   position: absolute;
   top: 0;
@@ -643,6 +640,7 @@ body {
 }
 .button {
   display: inline-block;
+  border: none;
   outline: none;
   cursor: pointer;
   background-color: transparent;
@@ -663,6 +661,18 @@ body {
   color: #ffffff;
   border-color: #0169b4;
   box-shadow: 0 0 1.6rem #0169b4;
+}
+.button_theme_go {
+  width: 14.4rem;
+  height: 14.4rem;
+  position: relative;
+  top: 7.3rem;
+  background-color: #ffffff;
+  border-top-left-radius: 7.2rem;
+  border-top-right-radius: 7.2rem;
+  background-image: url(/images/arrow_top.png);
+  background-repeat: no-repeat;
+  background-position: center 25%;
 }
 .link {
   color: #ffffff;
@@ -890,11 +900,76 @@ body {
   margin: 0;
   padding-left: 3.5rem;
 }
+.footer {
+  background-image: linear-gradient(45deg, #a72b8f 0%, #0169b4 100%);
+  padding-top: 11.5rem;
+  overflow: hidden;
+}
+.footer__container {
+  grid-template-rows: repeat(3, auto);
+}
+.footer__contact {
+  margin-bottom: 12.4rem;
+}
+.footer__social-media {
+  margin-bottom: 5.5rem;
+}
 .contact {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  text-align: center;
+}
+.contact__icon {
+  display: inline-block;
+  width: 7rem;
+  height: 7rem;
+  border: 0.2rem solid #ffffff;
+  border-radius: 3.5rem;
+  background-image: url(/images/footer_icon.PNG);
+  background-repeat: no-repeat;
+}
+.contact__icon_location {
+  background-position: 2.6rem center;
+}
+.contact__icon_mail {
+  background-position: -27.4rem center;
+}
+.contact__icon_phone {
+  background-position: -57.5rem center;
+}
+.contact__icon_fax {
+  background-position: -87.4rem center;
+}
+.contact__info {
+  font-family: 'montserrat';
+  font-weight: 300;
+  color: #ffffff;
 }
 .social-media {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  text-align: center;
+}
+.social-media__icon {
+  display: inline-block;
+  width: 6rem;
+  height: 5rem;
+  background-image: url(/images/social_media.PNG);
+  background-repeat: no-repeat;
+}
+.social-media__icon_facebook {
+  background-position: 1.6rem center;
+}
+.social-media__icon_twitter {
+  background-position: -7.6rem center;
+}
+.social-media__icon_pinterest {
+  background-position: -17.8rem center;
+}
+.social-media__icon_google {
+  background-position: -28.6rem center;
+}
+.social-media__link {
+  display: block;
+  height: 100%;
 }
