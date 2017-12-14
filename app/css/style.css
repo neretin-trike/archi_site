@@ -925,7 +925,7 @@ body {
   height: 7rem;
   border: 0.2rem solid #ffffff;
   border-radius: 3.5rem;
-  background-image: url(/images/footer_icon.PNG);
+  background-image: url(../images/footer_icon.PNG);
   background-repeat: no-repeat;
 }
 .contact__icon_location {
@@ -954,7 +954,7 @@ body {
   display: inline-block;
   width: 6rem;
   height: 5rem;
-  background-image: url(/images/social_media.PNG);
+  background-image: url(../images/social_media.PNG);
   background-repeat: no-repeat;
 }
 .social-media__icon_facebook {
